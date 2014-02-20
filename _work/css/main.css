@@ -1,0 +1,61 @@
+/* Menu placement
+------------------------------------------*/
+#mainMenu ul {
+   
+}
+#mainMenu {
+    float: left;
+}
+#mainMenu > li {
+    float: left;
+}
+#mainMenu li a {
+display: block; /*display as blocks*/
+    height: 2em;
+    line-height: 2em;
+    padding: 0 3em;
+    text-decoration: none;
+}
+#mainMenu ul {
+    position: absolute;
+    display: none;
+z-index: 999; /*prevents menu from showing behind other elements*/
+}
+#mainMenu ul li a {
+    width: 80px;
+    padding: 0;
+}
+#mainMenu li:hover ul {
+    display: block;
+}
+
+/* Main menu
+------------------------------------------*/
+#mainMenu {
+    font-family: Avenir;
+    font-size: 12px;
+    background: #ffffff;
+    border:1px solid #bbbdc0;
+    border-width: 1.5px 0;
+    list-style: none;
+}
+#mainMenu > li > a {
+    color: #000;
+    font-weight: bold;
+}
+#mainMenu > li:hover > a {
+    background: #f1f1f2;
+    color: #bfbf38;
+}
+ 
+/* Submenu
+------------------------------------------*/
+#mainMenu ul {
+    list-style: none;
+}
+#mainMenu ul li a {
+    color: #000;
+}
+#mainMenu ul li:hover a {
+    background: #ecea65;
+}
