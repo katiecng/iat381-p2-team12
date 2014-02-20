@@ -1,0 +1,148 @@
+<!doctype html>
+<html lang="en">
+
+  <head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale1.0">
+    <title>Detailed Products Page</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/detailed_products.css">
+    <link rel="stylesheet" href="css/grid_detailed_products.css">
+    <link href='http://fonts.googleapis.com/css?family=Montserrat+Alternates' rel='stylesheet' type='text/css'>
+
+
+  </head>
+  <body>
+
+    <form> <!--creates HTML form for user input in filter options-->
+        <p>
+           <label>Filter by:</label> <!--defines filter label for dropdown list input-->
+           <select id = "sizeList"> <!--creates dropdown list for size-->
+             <option value = "1">All Sizes</option> <!--available dropdown list options-->
+             <option value = "2">Small</option>
+             <option value = "3">Medium</option>
+             <option value = "4">Large</option>
+           </select>
+           
+           <select id = "priceList"> <!--price dropdown list-->
+             <option value = "1">Price</option>
+             <option value = "2">Low to High</option>
+             <option value = "3">High to Low</option>
+           </select>
+
+           <select id = "colourList"> <!--colour dropdown list-->
+             <option value = "1">Colour</option>
+             <option value = "2">Black</option>
+             <option value = "3">White</option>
+             <option value = "4">Champagne</option>
+             <option value = "5">Gray</option>
+             <option value = "6">Blue</option>
+             <option value = "7">Red</option>
+             <option value = "8">Purple</option>
+             <option value = "9">Orange</option>
+             <option value = "10">Pink</option>
+             </select>
+        </p>
+    </form>
+
+
+    <div class="grid">
+
+      <div class="col-1of2">
+
+    <article id="Product Picture">
+      <figure>
+        <img alt="Product" img src="http://placehold.it/350x550" width="350" height="550">
+        <img alt="Product" img src="http://placehold.it/100x100" width="100" height="100">
+        <img alt="Product" img src="http://placehold.it/100x100" width="100" height="100">
+        <img alt="Product" img src="http://placehold.it/100x100" width="100" height="100">
+      </figure>
+
+      <!-- <ol>
+        <li><em>First reason why kittens are death</em></li>
+        <li>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</li>
+        <li>Aliquam tincidunt mauris eu risus.</li>
+      </ol>
+
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus magna. Cras in mi at felis aliquet congue. Ut a est eget ligula molestie gravida. Curabitur massa. Donec eleifend, libero at sagittis mollis, tellus est malesuada tellus, at luctus turpis elit sit amet quam. Vivamus pretium ornare est.</p> -->
+
+    </article>
+
+      </div>
+        <div class="col-1of2"> <!-- end of grid -->
+
+
+
+    <article id="Selection">
+
+      <h2>Product Name</h2>
+
+
+      <form> <!--creates HTML form for user input in filter options-->
+        <p>
+           <label>Size:</label> <!--defines filter label for dropdown list input-->
+           <select id = "sizeList"> <!--creates dropdown list for size-->
+             <option value = "1">All Sizes</option> <!--available dropdown list options-->
+             <option value = "2">Small</option>
+             <option value = "3">Medium</option>
+             <option value = "4">Large</option>
+           </select>
+        </p>
+        
+        <p>   
+
+           <label>Colour:</label>
+           <select id = "colourList"> <!--colour dropdown list-->
+             <option value = "1">Colour</option>
+             <option value = "2">Black</option>
+             <option value = "3">White</option>
+             <option value = "4">Champagne</option>
+             <option value = "5">Gray</option>
+             <option value = "6">Blue</option>
+             <option value = "7">Red</option>
+             <option value = "8">Purple</option>
+             <option value = "9">Orange</option>
+             <option value = "10">Pink</option>
+             </select>
+
+        </p>
+        
+        <p>     
+           
+           <label>Quantity:</label>
+           <select id = "quantity"> <!--price dropdown list-->
+             <option value = "1">1</option>
+             <option value = "2">2</option>
+             <option value = "3">3</option>
+             <option value = "4">4</option>
+             <option value = "5">5</option>
+             <option value = "6">6</option>
+             <option value = "7">7</option>
+             <option value = "8">8</option>
+             <option value = "9">9</option>
+             <option value = "10">10</option>
+           </select>
+           
+        </p>
+
+        <p>
+
+          <input type="submit" value="Add to Cart">
+
+        </p>
+
+        <h3>Details</h3>
+
+         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus magna. Cras in mi at felis aliquet congue. Ut a est eget ligula molestie gravida. Curabitur massa. Donec eleifend, libero at sagittis mollis, tellus est malesuada tellus, at luctus turpis elit sit amet quam. Vivamus pretium ornare est.</p>
+
+    </form>
+
+    </article>
+
+    </div>
+
+  </div>
+
+  </body>
+</html>
