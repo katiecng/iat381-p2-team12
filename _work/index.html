@@ -3,46 +3,108 @@
   <head>
     <meta charset = "utf-8" />
     <link href="css/main.css" rel="stylesheet">
+    <link href="css/grid.css" rel="stylesheet">
     <title>Home</title>
   </head>
   <body>
-	<ul id="mainMenu">
-		<li><a href="new arrivals">NEW ARRIVALS</a>
-			<ul>
-				<li><a href="clothing">Clothing</a></li>
-				<li><a href="accessories">Accessories</a></li>
-				<li><a href="shoes">Shoes</a></li>
-			</ul>
-		</li>
-		<li><a href="clothing">CLOTHING</a>
-			<ul>
-				<li><a href="tops">Tops</a></li>
-				<li><a href="pants">Pants</a></li>
-				<li><a href="jackets">Jackets</a></li>
-			</ul>
-		</li>
-		<li><a href="accessories">ACCESSORIES</a>
-			<ul>
-				<li><a href="necklaces">Necklaces</a></li>
-				<li><a href="bracelets">Bracelets</a></li>
-				<li><a href="rings">Rings</a></li>
-			</ul>
-		</li>
-		<li><a href="shoes">SHOES</a>
-			<ul>
-				<li><a href="heels">Heels</a></li>
-				<li><a href="boots">Boots</a></li>
-				<li><a href="wedges">Wedges</a></li>
-			</ul>
-		</li>
-		<li><a href="sales">SALES</a>
-			<ul>
-				<li><a href="clothing">Clothing</a></li>
-				<li><a href="accessories">Accessories</a></li>
-				<li><a href="shoes">Shoes</a></li>
-			</ul>
-		</li>
-	</ul>
+  	<header role="banner">
+  		<!-- Logo -->
+  		<div id="logo">
+  			<hr noshade>
+  			<a href="index.html"><img src="images/logo.png"></a>
+  		</div>
+
+  		<!-- Search Box -->
+  		<div id="searchbox">
+	  		<form id="searchbox" action="">
+	    		<input id="search" type="text" placeholder="Search...">
+
+	    		<!--
+	    		<img src="images/searchicon.png">
+				<input id="submit" type="submit" value="Search">
+				-->
+
+				
+				<img src="images/searchicon.png">
+				<input type="submit" value="" style="border-style: none; background: img src="images/searchicon.png";">
+				
+
+			</form>
+		</div>
+  		
+		<!-- Main Menu -->
+		<ul id="mainMenu">
+			<li><a href="new arrivals">NEW ARRIVALS</a>
+				<ul>
+					<li><a href="clothing">Clothing</a></li>
+					<li><a href="accessories">Accessories</a></li>
+					<li><a href="shoes">Shoes</a></li>
+					<li><a href="allnew">Show All</a></li>
+				</ul>
+			</li>
+			<li><a href="clothing">CLOTHING</a>
+				<ul>
+					<li><a href="dresses">Dresses</a></li>
+					<li><a href="tops">Tops</a></li>
+					<li><a href="sweaters">Sweaters</a></li>
+					<li><a href="jackets">Jackets</a></li>
+					<li><a href="pants">Pants</a></li>
+					<li><a href="shorts">Shorts</a></li>
+					<li><a href="skirts">Skirts</a></li>
+					<li><a href="allclothing">Show All</a></li>
+				</ul>
+			</li>
+			<li><a href="accessories">ACCESSORIES</a>
+				<ul>
+					<li><a href="necklaces">Necklaces</a></li>
+					<li><a href="bracelets">Bracelets</a></li>
+					<li><a href="rings">Rings</a></li>
+					<li><a href="scarves">Scarves</a></li>
+					<li><a href="bags">Bags</a></li>
+					<li><a href="allacessories">Show All</a></li>
+				</ul>
+			</li>
+			<li><a href="shoes">SHOES</a>
+				<ul>
+					<li><a href="heels">Heels</a></li>
+					<li><a href="boots">Boots</a></li>
+					<li><a href="wedges">Wedges</a></li>
+					<li><a href="sneakers">Sneakers</a></li>
+					<li><a href="allshoes">Show All</a></li>
+				</ul>
+			</li>
+			<li><a href="sales">SALES</a>
+				<ul>
+					<li><a href="clothing">Clothing</a></li>
+					<li><a href="accessories">Accessories</a></li>
+					<li><a href="shoes">Shoes</a></li>
+					<li><a href="allsales">Show All</a></li>
+				</ul>
+			</li>
+		</ul>
+	</header>
+
+	<div class="grid">
+		<div class="col-1of3">
+	   		<article id="about">
+	     		<h2><a href="about.html">ABOUT</a></h2>
+    		</article>
+    	</div>
+
+
+		<div class="col-1of3">
+		    <article id="contact">
+				<h2><a href="contact.html">CONTACT</a></h2>
+		    </article>
+		</div>
+
+		<div class="col-1of3">
+		    <article id="storefinder">
+		    	<h2><a href="storelocator.html">STORE FINDER</a></h2>
+			</article>
+		</div>
+
+    </div>
   </body>
 
  </html>

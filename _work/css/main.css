@@ -1,16 +1,55 @@
+/* Header with logo
+-----------------------------------------*/
+#logo {
+    padding-top: 20px;
+    height: 100px;
+}
+
+#logo > IMG {
+    height: 75px;
+    position: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+img {
+    height: 75px;
+    position: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+hr {
+    border: 1px solid #bfbfbf;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+#searchbox {
+    float: right;
+    position: relative;
+}
+
+#searchbox > IMG{
+    height: 15px;
+    float: right;  
+}
+
+
 /* Menu placement
 ------------------------------------------*/
-#mainMenu ul {
-   
-}
 #mainMenu {
-    float: left;
+    display: block;
+    margin-left: 100px;
+    margin-right: 100px;
 }
 #mainMenu > li {
-    float: left;
+    display: inline-block;
 }
 #mainMenu li a {
-display: block; /*display as blocks*/
+    display: block; /*display as blocks*/
     height: 2em;
     line-height: 2em;
     padding: 0 3em;
@@ -19,7 +58,7 @@ display: block; /*display as blocks*/
 #mainMenu ul {
     position: absolute;
     display: none;
-z-index: 999; /*prevents menu from showing behind other elements*/
+    z-index: 999; /*prevents menu from showing behind other elements*/
 }
 #mainMenu ul li a {
     width: 80px;
@@ -27,6 +66,8 @@ z-index: 999; /*prevents menu from showing behind other elements*/
 }
 #mainMenu li:hover ul {
     display: block;
+    border: 1px gray solid;
+    width: 180px;
 }
 
 /* Main menu
@@ -52,10 +93,26 @@ z-index: 999; /*prevents menu from showing behind other elements*/
 ------------------------------------------*/
 #mainMenu ul {
     list-style: none;
+    background: #ffffff;
 }
 #mainMenu ul li a {
     color: #000;
 }
 #mainMenu ul li:hover a {
     background: #ecea65;
+}
+
+/*#mainMenu.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}*/
+
+
+article {
+    text-align: left;
+    margin: 2rem 0; 
+    padding: 2rem; 
+    border: 1px solid gray;
+    background-color: #f1f1f2;
 }
