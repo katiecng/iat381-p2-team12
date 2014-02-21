@@ -1,0 +1,44 @@
+<!DOCTYPE HTML>
+<html lang = "en">
+  <head>
+    <meta charset = "utf-8" />
+    <title>Review Form</title>
+  </head>
+  <body>
+  	<form method="post" action="#" id="reviews">
+			
+			<label for="form-nickname">Nickname:</label>
+			<input type="text" id="form-name" name="form-name" placeholder="Jane Doe">
+
+			<label for="form-subject">Subject:</label>
+			<input type="text" id="form-subject" name="form-subject" placeholder="A title for your comment">
+
+			<label for="form-comments">Comment:</label>
+			<textarea id="form-comments" name="form-comments" placeholder="Write your comment here."
+			></textarea>
+
+			<input type="submit" value="Submit">
+				
+	</form>
+</body>
+
+
+	    <!-- All valid forms must use a 'method' (for submitting the form), and an 'action' (which submits the form) -->
+    <form method="post" action="#" id="comments">
+
+      <!-- Labels are associated with 'ids', NOT with 'name' attributes --> 
+      <label for="form-name">Review Headline:</label>
+      <!-- Input elements should have a 'type' defined to help with processing -->
+      <input type="text" id="form-name" name="form-name" placeholder="Jane Doe">
+
+      <label for="form-subject">Subject:</label>
+      <input type="text" id="form-subject" name="form-subject" placeholder="A title for your comment">
+      
+      <label for="form-comment">Comment:</label>
+      <!-- Textareas allow for multi-line text input instead of a single line -->
+      <textarea id="form-comment" name="form-comment" placeholder="Please place comment here"></textarea>
+
+      <input type="submit" value="Submit your comment">
+
+    </form>
+
