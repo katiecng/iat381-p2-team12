@@ -24,3 +24,7 @@ body {
 p {
 	color: black;
 }
+
+#dressTitle h2 {
+	font-weight: 1000px;
+}
