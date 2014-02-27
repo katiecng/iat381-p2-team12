@@ -35,7 +35,7 @@
 /* Defining styles for our 3 column grid */
 
 .col-1of3 {
-	width: 28%;
+	width: 26%;
 }
 
 @media (max-width: 490px) {
