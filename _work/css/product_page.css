@@ -1,0 +1,26 @@
+body {
+}
+
+
+#productlist {
+	width: 744px;
+	margin: 0 auto;
+}
+
+#productlist a {
+	margin: 10px;
+	text-align: left;
+	display: inline-block;
+	font-size: 1rem;
+	line-height: 0rem;
+	text-decoration: none;
+}
+
+#productlist a:hover, p:hover {
+	/*border-color: white;*/
+	background-color: teal;
+}
+
+p {
+	color: black;
+}
