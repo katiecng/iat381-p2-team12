@@ -17,7 +17,7 @@ article {
     margin: 0.5rem 0; 
     margin-bottom: 4rem;
     padding: 3.5rem; 
-    border: 7px solid #282828;
+    border: 5px solid #282828;
     background-color: #f1f1f2;
     width: 280px;
     height: 280px;
@@ -49,6 +49,6 @@ article a img:hover {
 }
 
 #storefinder {
-	background: url(../images/pattern_blue.png) no-repeat;
+	background: url(../images/pattern.png) no-repeat;
     background-position: center;
 }
