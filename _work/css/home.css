@@ -26,13 +26,19 @@ article {
 
 article a:link {
 	color: #000;
+}
 
+article a:visited {
+	color: #000;
 }
 
 article a:hover {
 	color: #5b5b5b;
 }
 
+article a:active {
+	color: #000;
+}
 
 article a img:hover {
 	height: 65px;
