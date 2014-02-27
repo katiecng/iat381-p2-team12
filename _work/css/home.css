@@ -24,9 +24,15 @@ article {
     font-size: 14px;
 }
 
+article a:link {
+	color: #000;
+
+}
+
 article a:hover {
 	color: #5b5b5b;
 }
+
 
 article a img:hover {
 	height: 65px;
