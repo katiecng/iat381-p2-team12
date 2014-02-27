@@ -18,7 +18,7 @@ body {
 
 #productlist a:hover, p:hover {
 	/*border-color: white;*/
-	background-color: teal;
+	/*background-color: teal;*/
 }
 
 p {
@@ -26,5 +26,7 @@ p {
 }
 
 #dressTitle h2 {
-	font-weight: 1000px;
+	text-align: left;
+	margin-left: 100px;
 }
+
