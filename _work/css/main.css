@@ -1,20 +1,41 @@
+/* links
+-----------------------------------------*/
+
+a:link {
+    text-decoration:none;
+    color: #000;
+}
+a:visited {
+    text-decoration:none;
+}
+a:hover {
+    text-decoration:none;
+    color: #8a8a8a;
+}
+a:active {
+    text-decoration:none;
+}
+
+
+
 /* Header with logo
 -----------------------------------------*/
+
+#bag {
+    float: right;
+    padding-right: 100px;
+    font-family: Avenir;
+    font-size: 12px;
+    }
+
 #logo {
     padding-top: 20px;
     height: 100px;
 }
 
-#logo > IMG {
-    height: 75px;
-    position: center;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-img {
-    height: 75px;
+#logo img {
+    height: 90px;
+    padding:15px;
     position: center;
     display: block;
     margin-left: auto;
@@ -28,13 +49,25 @@ hr {
 }
 
 #searchbox {
-    float: right;
+    display: block;
     position: relative;
+    width: 91.5%;
+    padding-bottom: 25px;
+    padding-top: 1px;
 }
 
-#searchbox > IMG{
-    height: 15px;
-    float: right;  
+#search .field {
+    float: right;
+    margin: 5px 0 0 8px;
+    color: #858585;
+    text-indent: 4px;
+    width: 130px;
+    height: 20px;
+    line-height: 18px;
+    padding:0;
+    border: 1px solid #c8c8c8;
+    background: url(../images/searchicon.png) no-repeat;
+    background-position: right;
 }
 
 
@@ -42,11 +75,14 @@ hr {
 ------------------------------------------*/
 #mainMenu {
     display: block;
+    text-align: center;
+    padding-left: 1px;
     margin-left: 100px;
     margin-right: 100px;
 }
 #mainMenu > li {
     display: inline-block;
+    
 }
 #mainMenu li a {
     display: block; /*display as blocks*/
@@ -61,8 +97,10 @@ hr {
     z-index: 999; /*prevents menu from showing behind other elements*/
 }
 #mainMenu ul li a {
-    width: 80px;
+    /*width: 180px;*/
     padding: 0;
+    text-align: left;
+    
 }
 #mainMenu li:hover ul {
     display: block;
@@ -100,13 +138,16 @@ hr {
 }
 #mainMenu ul li:hover a {
     background: #ecea65;
+
+    display: inline-block;
+    position: absolute;
+    left: 0;
+    right: 0;
+    
+    text-align: left;
+    padding-left: 40px;
 }
 
-/*#mainMenu.center {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-}*/
 
 
 article {
