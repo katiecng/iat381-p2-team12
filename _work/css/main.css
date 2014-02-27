@@ -1,3 +1,12 @@
+/* body
+-----------------------------------------*/
+body {
+    font-family: avenir, arial, sans-serif;
+}
+
+
+
+
 /* links
 -----------------------------------------*/
 
@@ -42,7 +51,7 @@ a:active {
     margin-right: auto;
 }
 
-hr {
+#logo hr {
     border: 1px solid #bfbfbf;
     margin-left: 100px;
     margin-right: 100px;
@@ -150,10 +159,3 @@ hr {
 
 
 
-article {
-    text-align: left;
-    margin: 2rem 0; 
-    padding: 2rem; 
-    border: 1px solid gray;
-    background-color: #f1f1f2;
-}

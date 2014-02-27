@@ -1,0 +1,54 @@
+.fashion img {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	padding-bottom: 45px;
+}
+
+.grid hr {
+    border: 1px solid #282828;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+article {
+	color: #b5b534;
+    text-align: center;
+    margin: 0.5rem 0; 
+    margin-bottom: 4rem;
+    padding: 3.5rem; 
+    border: 7px solid #282828;
+    background-color: #f1f1f2;
+    width: 280px;
+    height: 280px;
+    font-size: 14px;
+}
+
+article a:hover {
+	color: #5b5b5b;
+}
+
+article a img:hover {
+	height: 65px;
+}
+
+
+#about {
+	background: url(../images/pattern_cream.png) no-repeat;
+    background-position: center;
+}
+
+#contact {
+	background: url(../images/pattern_floral.png) no-repeat;
+    background-position: center;
+}
+
+#contact img:hover {
+	width: 75px;
+	height: 57px;
+}
+
+#storefinder {
+	background: url(../images/pattern_blue.png) no-repeat;
+    background-position: center;
+}
