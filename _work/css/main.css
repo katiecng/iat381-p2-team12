@@ -117,10 +117,11 @@ a:active {
 #mainMenu ul li a {
     /*width: 180px;*/
     padding: 0;
-    text-align: left;
+    /*text-align: left; I CHANGED SOMETHING HERE*/
     
 }
 #mainMenu li:hover ul {
+    padding: 0; /* I CHANGED SOMETHING HERE */
     display: block;
     border: 1px gray solid;
     width: 180px;
@@ -163,7 +164,7 @@ a:active {
     left: 0;
     right: 0;*/
     
-    text-align: left;
+    text-align: center; /* CHANGED TO CENTER /*
     /*padding-left: 40px;*/
 }
 
