@@ -30,3 +30,9 @@ p {
 	margin-left: 100px;
 }
 
+@media (max-width: 400px) {
+	#productlist {
+		width: 100%;
+	}
+
+}

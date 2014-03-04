@@ -154,16 +154,17 @@ a:active {
 #mainMenu ul li a {
     color: #000;
 }
+
 #mainMenu ul li:hover a {
     background: #ecea65;
 
-    display: inline-block;
+/*    display: inline-block;
     position: absolute;
     left: 0;
-    right: 0;
+    right: 0;*/
     
     text-align: left;
-    padding-left: 40px;
+    /*padding-left: 40px;*/
 }
 
 
