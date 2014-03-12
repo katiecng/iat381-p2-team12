@@ -8,7 +8,7 @@ body {
 }
 
 #productlist a {
-	margin: 10px;
+	margin-right: 20px;
 	text-align: left;
 	display: inline-block;
 	font-size: 1rem;
@@ -16,23 +16,34 @@ body {
 	text-decoration: none;
 }
 
-#productlist a:hover, p:hover {
-	/*border-color: white;*/
-	/*background-color: teal;*/
-}
-
 p {
-	color: black;
+	
 }
 
-#dressTitle h2 {
+#topCategoryHeader img {
+	display: block;
+	margin-right: auto;
+	margin-left: auto;
+	max-width: 100%;
+}
+
+/*#dressTitle h2 {
 	text-align: left;
 	margin-left: 100px;
-}
+}*/
 
-@media (max-width: 400px) {
+@media (max-width: 720px) {
 	#productlist {
 		width: 100%;
+		text-align: center;
 	}
 
 }
+
+/*@media (max-width: 720px) {
+	img {
+		width: 100%;
+	}
+}*/
+
+
