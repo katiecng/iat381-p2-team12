@@ -1,0 +1,224 @@
+<!doctype html>
+<html lang="en">
+
+  <head>
+
+    <meta charset="utf-8">
+    <title>Detailed Products Page Added to Cart</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/detailed_products.css">
+    <link rel="stylesheet" href="css/grid_detailed_products.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/lightbox.css">
+
+
+  </head>
+  <body>
+
+    <header role="banner">
+      <!-- Shopping Bag -->
+      <div id="bag">
+        <a href="bag.html"><img src="images/bagicon.png"></a>
+        <a href="bag">MY BAG(1) CAD $0.00</a>
+      </div>
+
+      <!-- Logo -->
+      <div id="logo">
+        <hr noshade>
+        <a href="index.html"><img src="images/logo.png"></a>
+      </div>
+
+      <!-- Search Box -->
+      <div id="searchbox">
+        <form id="search" method="get" action="">
+          <input type="text" class="field" placeholder="Search...">
+        </form>
+      </div>
+      
+    <!-- Main Menu -->
+    <ul id="mainMenu">
+      <li><a href="new arrivals">NEW ARRIVALS</a>
+        <ul>
+          <li><a href="clothing">Clothing</a></li>
+          <li><a href="accessories">Accessories</a></li>
+          <li><a href="shoes">Shoes</a></li>
+          <li><a href="allnew">Show All</a></li>
+        </ul>
+      </li>
+      <li><a href="clothing">CLOTHING</a>
+        <ul>
+          <li><a href="productstest.html">Dresses</a></li>
+          <li><a href="tops">Tops</a></li>
+          <li><a href="sweaters">Sweaters</a></li>
+          <li><a href="jackets">Jackets</a></li>
+          <li><a href="pants">Pants</a></li>
+          <li><a href="shorts">Shorts</a></li>
+          <li><a href="skirts">Skirts</a></li>
+          <li><a href="allclothing">Show All</a></li>
+        </ul>
+      </li>
+      <li><a href="accessories">ACCESSORIES</a>
+        <ul>
+          <li><a href="necklaces">Necklaces</a></li>
+          <li><a href="bracelets">Bracelets</a></li>
+          <li><a href="rings">Rings</a></li>
+          <li><a href="scarves">Scarves</a></li>
+          <li><a href="bags">Bags</a></li>
+          <li><a href="allacessories">Show All</a></li>
+        </ul>
+      </li>
+      <li><a href="shoes">SHOES</a>
+        <ul>
+          <li><a href="heels">Heels</a></li>
+          <li><a href="boots">Boots</a></li>
+          <li><a href="wedges">Wedges</a></li>
+          <li><a href="sneakers">Sneakers</a></li>
+          <li><a href="allshoes">Show All</a></li>
+        </ul>
+      </li>
+      <li><a href="sales">SALES</a>
+        <ul>
+          <li><a href="clothing">Clothing</a></li>
+          <li><a href="accessories">Accessories</a></li>
+          <li><a href="shoes">Shoes</a></li>
+          <li><a href="allsales">Show All</a></li>
+        </ul>
+      </li>
+    </ul>
+
+
+    <div class="grid">
+
+      <div class="col-1of2">
+
+         <article id="productPictures">
+             <figure>
+                 <img alt="Product" img src="images/Dresses/Dress1M.jpg" width="350" height="550">
+             </figure>
+
+        </article>
+
+        <article id="smallProductPictures">
+          <figure>
+
+                 <a href="images/Dresses/Dress1M1.jpg" data-lightbox="smallProductImages">
+                 <img alt="Product" img src="images/Dresses/Dress1XS1.jpg" width="80" height="100">
+                 </a>
+
+                 <a href="images/Dresses/Dress1M2.jpg" data-lightbox="smallProductImages">
+                 <img alt="Product" img src="images/Dresses/Dress1XS2.jpg" width="80" height="100">
+                 </a>
+
+                 <a href="images/Dresses/Dress1M3.jpg" data-lightbox="smallProductImages">
+                 <img alt="Product" img src="images/Dresses/Dress1XS3.jpg" width="80" height="100">
+                 </a>
+
+        </article>
+
+      </div>
+        <div class="col-1of2"> <!-- end of grid -->
+
+
+
+    <article id="Selection">
+
+      <h2>Turqoise Cut Out Waist Dress</h2>
+      <h2>$71</h2>
+
+
+      <form> <!--creates HTML form for user input in filter options-->
+        <p>
+           <label>Size:</label> <!--defines filter label for dropdown list input-->
+           <select id = "sizeList"> <!--creates dropdown list for size-->
+             <option value = "1">All Sizes</option> <!--available dropdown list options-->
+             <option value = "2">Small</option>
+             <option value = "3">Medium</option>
+             <option value = "4">Large</option>
+           </select>
+        </p>
+        
+        <p>   
+
+           <label>Colour:</label>
+           <select id = "colourList"> <!--colour dropdown list-->
+             <option value = "1">Colour</option>
+             <option value = "2">Black</option>
+             <option value = "3">White</option>
+             <option value = "4">Champagne</option>
+             <option value = "5">Gray</option>
+             <option value = "6">Blue</option>
+             <option value = "7">Red</option>
+             <option value = "8">Purple</option>
+             <option value = "9">Orange</option>
+             <option value = "10">Pink</option>
+             </select>
+
+        </p>
+        
+        <p>     
+           
+           <label>Quantity:</label>
+           <select id = "quantity"> <!--price dropdown list-->
+             <option value = "1">1</option>
+             <option value = "2">2</option>
+             <option value = "3">3</option>
+             <option value = "4">4</option>
+             <option value = "5">5</option>
+             <option value = "6">6</option>
+             <option value = "7">7</option>
+             <option value = "8">8</option>
+             <option value = "9">9</option>
+             <option value = "10">10</option>
+           </select>
+           
+        </p>
+
+        <p>
+
+          <input type="submit" value="Added to Cart!">
+          <a href="checkout.html">
+          <input type="button" value="Checkout">
+          </a>
+
+        </p>
+
+        <h4>Details</h4>
+
+         <p>Soft knit cotton tank dress from WYLDEHART with a knotted cutout at the front. Trimmed with a scoopneck and an A-line skirt.  Stretchy, pullover construction.</p>
+
+        <p>CONTENT + CARE</p>
+            <p>- Cotton
+            - Hand wash
+            - Imported </p>
+
+        <p>SIZE + FIT</p>
+            <p>- Model in Turquoise is 5'11" and wearing size Small
+            - Measurements taken from size Medium
+            - Chest: 33"  
+            - Length: 32"</p>
+
+        <h4>Reviews</h4>
+
+        <img src="images/stars.jpg">
+
+        <p>Currently, there are no reviews for this product.</p>
+          <p>
+
+          <input type="submit" value="Write a Review!">
+
+        </p>
+
+    </form>
+
+    </article>
+
+    </div>
+
+  </div>
+
+  <script src="js/jquery.min.js"></script>
+  <script src="js/lightbox.min.js"></script>
+  <script src="js/ui.js"></script>
+
+  </body>
+</html>
