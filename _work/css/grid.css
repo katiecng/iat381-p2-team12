@@ -35,10 +35,3 @@
 .col-1of3 {
 	width: 33.3%;
 }
-
-@media (max-width: 490px) {
-	.col-1of3 {
-		width: 100%;
-	}
-
-}
