@@ -2,8 +2,6 @@
 
 [class*='col-'] {
 	float: left;
-	padding-left: 100px;
-	padding-right: 145px;
 	text-align: center;
 	
 }
@@ -35,7 +33,7 @@
 /* Defining styles for our 3 column grid */
 
 .col-1of3 {
-	width: 26%;
+	width: 33.3%;
 }
 
 @media (max-width: 490px) {

@@ -14,17 +14,16 @@
 article {
 	color: #b5b534;
     text-align: center;
-    margin: 0.5rem 0; 
-    margin-bottom: 4rem;
-    margin-left: 55px;
-    margin-right: 55px;
+    margin: auto; 
     padding: 3.5rem; 
     border: 5px solid #282828;
     background-color: #f1f1f2;
     width: 280px;
     height: 280px;
     font-size: 14px;
+    margin-bottom: 20px;
 }
+
 
 article a:link {
 	color: #000;
