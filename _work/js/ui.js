@@ -7,7 +7,7 @@ $(document).ready( function() {
 	// var variable = "Debugging test";
 	// $("title").html("Info: "+variable);
 
-	$("a[href$='.html']").click(function(clickEvent) {
+	$("a[href$='']").click(function(clickEvent) {
 
 			clickEvent.preventDefault();
 
