@@ -1,0 +1,50 @@
+
+form, label {
+	display: block; 
+	margin-top: 1rem;
+	font-size: 0.8rem;
+}
+
+form input, form textarea {
+	display: block;
+	font-size: 0.7rem;
+	padding: 0.25rem;
+	border: 0.1rem solid #999; 
+}
+
+form input:hover, form textarea:hover {
+	border-color: orange;
+}
+
+form textarea {
+	width: 20rem;
+	height: 12rem;
+}
+
+input {
+	width: 15rem;
+}
+
+#shipping {
+	margin-left: 20rem;
+}
+
+#billing {
+	margin-left: 5rem;
+}
+
+@media (max-width: 534px) {
+	#shipping {
+		width:100%;
+		margin-left: auto;
+	}
+}
+
+
+@media (max-width: 1015px) {
+	#billing {
+		width:100%;
+	}
+}
+
+
