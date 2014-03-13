@@ -1,7 +1,9 @@
+/* bag page
+-----------------------------------------*/
 #shopping h2 {
 	font-weight: 500;
 	padding-top:25px;
-	padding-left: 315px;
+	padding-left: 25%;
 	margin-bottom: 0;
 	letter-spacing: 1.5px;
 }
@@ -13,4 +15,58 @@
 
 #shopping {
 	border-right: thick solid ##bfbfbf
+}
+
+/* locations page
+-----------------------------------------*/
+#locations h2 {
+	font-weight: 500;
+	padding-top:25px;
+	padding-left: 25%;
+	margin-bottom: 0;
+	letter-spacing: 1.5px;
+	text-align: left;
+	
+}
+
+
+#locations {
+	
+}
+
+#locations hr {
+	border: 1px dotted #ededed;
+	margin-left: 100px;
+	margin-right: 100px;
+}
+
+
+/*#locations p {
+	margin-left: 25%;
+	margin-right: 25%;
+	font-size: 12px;
+	padding: 20px;
+	padding-left: 0px;
+	padding-right: 50px;
+	color: #5b5b5b;
+}*/
+
+strong {
+	color: #000;
+}
+
+table {
+	padding-left: 25%;
+}
+
+tr{
+	vertical-align: top;
+	font-size: 12px;
+	color: #5b5b5b;
+}
+
+td {
+	padding: 20px;
+	padding-left: 0px;
+	padding-right: 50px;
 }
