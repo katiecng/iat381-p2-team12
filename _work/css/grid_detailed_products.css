@@ -26,22 +26,17 @@
 }
 
 
-@media (max-width: 800px) {
+@media (max-width: 820px) {
 
 	.col-1of2 {
 		width: 100%;
 	}
 }
 
-/* Defining styles four our 3 column grid */
+@media (max-width: 322px) {
 
-.col-1of3 {
-	width: 33.333%;
-}
-
-@media (max-width: 485px) {
-
-	.col-1of3 {
+	#smallProductPictures {
 		width:100%;
 	}
 }
+

@@ -3,7 +3,7 @@ body {
 
 
 #productlist {
-	width: 744px;
+	width: 760px;
 	margin: 0 auto;
 }
 
@@ -32,18 +32,12 @@ p {
 	margin-left: 100px;
 }*/
 
-@media (max-width: 720px) {
+@media (max-width: 739px) {
 	#productlist {
 		width: 100%;
 		text-align: center;
 	}
 
 }
-
-/*@media (max-width: 720px) {
-	img {
-		width: 100%;
-	}
-}*/
 
 
