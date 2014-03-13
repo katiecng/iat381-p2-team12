@@ -29,27 +29,12 @@
 	
 }
 
-
-#locations {
-	
-}
-
 #locations hr {
 	border: 1px dotted #ededed;
 	margin-left: 100px;
 	margin-right: 100px;
 }
 
-
-/*#locations p {
-	margin-left: 25%;
-	margin-right: 25%;
-	font-size: 12px;
-	padding: 20px;
-	padding-left: 0px;
-	padding-right: 50px;
-	color: #5b5b5b;
-}*/
 
 strong {
 	color: #000;
@@ -69,4 +54,6 @@ td {
 	padding: 20px;
 	padding-left: 0px;
 	padding-right: 50px;
+	width: 250px;
 }
+
