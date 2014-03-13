@@ -23,6 +23,7 @@ h1 {
 }
 
 
+
 #productPictures img {
 	display: block;
 	height: auto; 
@@ -36,6 +37,7 @@ h1 {
 #smallProductPictures {
 	width: 320px;
 	margin: 0 auto;
+	margin-bottom: 50px;
 }
 
 
@@ -44,10 +46,5 @@ figure {
 	margin-left: 0;
 }
 
-
-figcaption {
-	font-size: 0.8rem;
-	font-style: italic;
-}
 
 
