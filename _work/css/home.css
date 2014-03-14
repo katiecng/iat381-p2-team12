@@ -80,3 +80,30 @@ article a img:hover {
     }
 
 }
+
+
+@media (max-width: 600px) {
+    #mainMenu {
+        text-align: center;
+        position: relative;
+        font-size: 16px;
+    }
+    #search .field {
+        
+        padding: 5px;
+        font-size: 13px;
+        display: inline-block;
+        position: relative;
+    }
+
+    #searchbox {
+        text-align: center;
+    }
+
+    .fashion, .updates {
+        padding-left: 0px;
+        margin-left: 0px;
+        width: 100%;
+    }
+
+}

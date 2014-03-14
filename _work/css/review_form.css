@@ -15,7 +15,7 @@ form input, form textarea {
 }
 
 form input:hover, form textarea:hover {
-	border-color: orange;
+	border-color: #ecea65;
 }
 
 form textarea {
@@ -25,4 +25,17 @@ form textarea {
 
 input {
 	width: 20rem;
+}
+
+#review_submit button{
+	background-color: black;
+	color: white;
+	border: none;
+	padding: 3px;
+	padding-left: 30px;
+	padding-right: 30px;
+	margin-bottom: 5px;
+	cursor: pointer;
+	margin-bottom: 5rem;
+	margin-top: 15px;
 }

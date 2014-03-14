@@ -13,7 +13,7 @@ form input, form textarea {
 }
 
 form input:hover, form textarea:hover {
-	border-color: orange;
+	border-color: #bcce7c;
 }
 
 form textarea {
@@ -39,8 +39,8 @@ figure {
 	width: 100%;
 }
 
-#checkout_btn input {
-	width: 10rem;
+#checkout_btn button {
+	width: 13rem;
 	background-color: black;
 	color: white;
 	border: none;
