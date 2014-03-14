@@ -86,6 +86,7 @@ td {
 }
 
 #shoppingbag thead tr th{
+	color: #000;
 	text-align: left;
 	letter-spacing: 2px;
 	font-weight: 500;
@@ -104,6 +105,7 @@ td {
 
 #shoppingbag tbody td {
 	padding: 10px;
+	color: #000;
 }
 
 #shoppingbag tbody a {
