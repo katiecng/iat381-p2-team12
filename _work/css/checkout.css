@@ -25,12 +25,18 @@ input {
 	width: 15rem;
 }
 
+figure {
+	text-transform: uppercase;
+	padding-left: 7.5rem;
+}
+
 #shipping {
 	margin-left: 20rem;
 }
 
 #billing {
-	margin-left: 5rem;
+	margin-left: 3rem;
+	width: 100%;
 }
 
 @media (max-width: 534px) {
@@ -41,9 +47,20 @@ input {
 }
 
 
-@media (max-width: 1015px) {
+@media (max-width: 1087px) {
 	#billing {
 		width:100%;
+		padding-left: auto;
+		margin: auto;
+	}
+}
+
+@media (max-width: 440px) {
+	#status {
+		width: 100%;
+		padding-left: 0rem;
+		padding: auto;
+		margin: auto;
 	}
 }
 
