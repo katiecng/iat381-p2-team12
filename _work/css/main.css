@@ -23,6 +23,7 @@ a:link {
 }
 a:visited {
     text-decoration:none;
+    color: #000
 }
 a:hover {
     text-decoration:none;
@@ -30,6 +31,7 @@ a:hover {
 }
 a:active {
     text-decoration:none;
+    color: #000;
 }
 
 

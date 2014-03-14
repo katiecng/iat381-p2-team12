@@ -1,6 +1,6 @@
 /* bag page
 -----------------------------------------*/
-#shopping h2 {
+/*#shopping h2 {
 	font-weight: 500;
 	padding-top:25px;
 	padding-left: 25%;
@@ -15,7 +15,7 @@
 
 #shopping {
 	border-right: thick solid ##bfbfbf
-}
+}*/
 
 /* locations page
 -----------------------------------------*/
@@ -35,13 +35,19 @@
 	margin-right: 100px;
 }
 
+#locations thead tr th{
+	text-align: left;
+	letter-spacing: 2px;
+	font-weight: 500;
+	font-size: 14px;
+}
 
 strong {
 	color: #000;
 }
 
 table {
-	padding-left: 25%;
+	padding-left: 23%;
 }
 
 tr{
@@ -56,4 +62,85 @@ td {
 	padding-right: 50px;
 	width: 250px;
 }
+
+
+
+/* bag page
+-----------------------------------------*/
+
+#shoppingbag h2 {
+	font-weight: 500;
+	padding-top:25px;
+	padding-left: 23%;
+	margin-bottom: 0;
+	letter-spacing: 1.5px;
+	text-align: left;
+	
+}
+
+#shoppingbag hr {
+	border: 1px dotted #ededed;
+	margin-left: 100px;
+	margin-right: 100px;
+}
+
+#shoppingbag thead tr th{
+	text-align: left;
+	letter-spacing: 2px;
+	font-weight: 500;
+	font-size: 14px;
+}
+
+#shoppingbag table{
+	border: 1px solid #ededed;
+	border-width: 5px;
+	margin-left: 23%;
+	padding-left: 10px;
+}
+
+
+
+/* contact page
+-----------------------------------------*/
+
+#contactpage h2 {
+	font-weight: 500;
+	padding-top:25px;
+	padding-left: 23%;
+	margin-bottom: 0;
+	letter-spacing: 1.5px;
+	text-align: left;
+}
+
+#contactpage td h2 {
+	font-weight: 450;
+	font-size: 16px;
+	padding-left: 0px;
+	margin-bottom: 0;
+	letter-spacing: 1.5px;
+	text-align: left;
+	color: #000;
+}
+
+#contactpage td {
+	font-size: 13.5px;
+}
+
+#contactpage hr {
+	border: 1px dotted #ededed;
+	margin-left: 100px;
+	margin-right: 100px;
+}
+
+#contactpage thead tr th{
+	text-align: left;
+	letter-spacing: 2px;
+	font-weight: 500;
+	font-size: 14px;
+}
+
+#contactpage td{
+	width: 350px;
+}
+
 

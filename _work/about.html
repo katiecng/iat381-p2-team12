@@ -5,34 +5,33 @@
     <link href="css/main.css" rel="stylesheet">
     <link href="css/grid.css" rel="stylesheet">
     <link href="css/home.css" rel="stylesheet">
-    <link href="css/bag.css" rel="stylesheet">
-    
+     <link href="css/bag.css" rel="stylesheet">
     <title>Home</title>
   </head>
   <body>
   	<header role="banner">
   		<!-- Shopping Bag -->
   		<div id="bag">
-  			<a href="bag.html"><img src="images/bagicon.png"></a>
+  			<a href="bag.html"><img src="images/bagicon.png" alt="bag"></a>
   			<a href="bag.html">MY BAG(0) CAD $0.00</a>
   		</div>
 
   		<!-- Logo -->
   		<div id="logo">
   			<hr>
-  			<a href="index.html"><img src="images/logo.png"></a>
+  			<a href="index.html"><img src="images/logo.png" alt="logo"></a>
   		</div>
 
   		<!-- Search Box -->
   		<div id="searchbox">
-	  		<form id="search" method="get" action="">
+	  		<form id="search" method="get">
 	    		<input type="text" class="field" placeholder="Search...">
 	    	</form>
 	    </div>
   		
 		<!-- Main Menu -->
 		<ul id="mainMenu">
-			<li><a href="new arrivals">NEW ARRIVALS</a>
+			<li><a href="new">NEW ARRIVALS</a>
 				<ul>
 					<li><a href="clothing">Clothing</a></li>
 					<li><a href="accessories">Accessories</a></li>
@@ -42,7 +41,7 @@
 			</li>
 			<li><a href="clothing">CLOTHING</a>
 				<ul>
-					<li><a href="dresses">Dresses</a></li>
+					<li><a href="productsDresses.html">Dresses</a></li>
 					<li><a href="tops">Tops</a></li>
 					<li><a href="sweaters">Sweaters</a></li>
 					<li><a href="jackets">Jackets</a></li>
@@ -82,22 +81,22 @@
 		</ul>
 	</header>
 
-	<div id="locations">
+
+	<div id="contactpage">
 		<div>
-      	<h2>ABOUT</h2>
+      	<h2>ABOUT US</h2>
+      	<hr>
       	
       	<table>
       		<tbody>
 	      		<tr>
-			      	<td width="250">
-			      		<figure class="fashion">
-							<img src="images/chic.jpg" alt="Chic" width="80%" >
-						</figure>
+	      			<td>
+			      		<p> Chic offers clothing, accessories, and shoe products with a fashion-forward style that does not follow the trend, but rather sets the trend. The store provides quality yet affordable products to customers with a strong value of building a brand through trust.</p>
+
+						<p>The company is growing quickly, featuring a constant flow of fun and creative clothing designs and the accessories to make your look come together at the right price. Becoming a phenomenon in the fashion world, Chic provides shoppers with an unprecedented selection of today's fashions, always changing and always in style.</p>
 			      	</td>
-			      	<td width="250"><strong>HOURS</strong>
-			      		blah blah blah
-					</td>
-					<td><strong>VIEW MAP & DIRECTIONS</strong>
+	      			<td>
+						<img src="images/aboutus.jpg" alt=about width="400">
 					</td>
 		      	</tr>
 	      	</tbody>
@@ -105,6 +104,31 @@
       	</div>
     </div>
 
+     <div class="grid">
+		<hr>
+		<div class="col-1of3">
+
+	   		<article id="about">
+	     		<h2><a href="about.html">ABOUT</a></h2>
+	     		<a href="about.html"><img src="images/about_icon.png" alt="about"></a>
+    		</article>
+    	</div>
+
+
+		<div class="col-1of3">
+		    <article id="contact">
+				<h2><a href="contact.html">CONTACT</a></h2>
+				<a href="contact.html"><img src="images/contact_icon.png" alt="contact"></a>
+		    </article>
+		</div>
+
+		<div class="col-1of3">
+		    <article id="storefinder">
+		    	<h2><a href="storefinder.html">STORE FINDER</a></h2>
+		    	<a href="storefinder.html"><img src="images/locator_icon.png" alt="locator"></a>
+			</article>
+		</div>
+    </div>	
    
 
   </body>
