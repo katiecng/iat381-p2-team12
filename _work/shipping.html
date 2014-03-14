@@ -3,11 +3,12 @@
 
   <head>
     <meta charset="utf-8">
-    <title>Checkout</title>
+    <title>Shipping</title>
     <link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" href="css/detailed_products.css">
     <link rel="stylesheet" href="css/grid_detailed_products.css">
     <link rel="stylesheet" href="css/checkout.css">
+    <link rel="stylesheet" href="css/shipping.css">
   </head>
 
   <body>
@@ -86,120 +87,51 @@
 
   <article id="status">
 
-  <figure>Shopping Bag | <strong>Billing & Shipping</strong> | Shipping Method | Payment</figure>
+  <figure>Shopping Bag | Billing & Shipping | <strong>Shipping Method</strong> | Payment</figure>
 
   </article>
 
-  <div class="grid">
+  <div id="shippingOptions">
+    <table>
+      <thead>
+        <tbody>
+          <tr>
+            <th>Shipping Method</th>
+            <th>Shipping Time</th>
+            <th>Price</th>
+            <th></th>
+          </tr>
+        </thead>
 
-      <div class="col-1of2">
+        <tr>
+          <td>Standard</td>
+          <td>Standard Ground Shipping and Handling (5-10 Business Days</td>
+          <td>$25</td>
+          <td><input type="checkbox" name="checkbox" value="value"></td>
+        </tr>
 
-         <article id="shipping">
+        <tr>
+          <td>Express</td>
+          <td>Express Shipping and Handling (3-5 Business Days)</td>
+          <td>$85</td>
+          <td><input type="checkbox" name="checkbox" value="value"></td>
+        </tr>
 
+        <tr>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td><div id="checkout_btn">
+                  <form style="display: inline" action="payment.html" method="get"><button>CHECKOUT</button>
+                  </form>
 
-      <h2>Shipping Information:</h2>
+               </div></td>
 
-
-        <form method="post" action="#" id="reviews">
-
-     
-          <label>Address Name:</label>
-          <input type="text" name="form-name" placeholder="E.g Home">
-
-          <label>Country:</label>
-          <input type="text" name="form-subject">
-
-          <label>First Name:</label>
-          <input type="text" name="form-subject">
-
-          <label>Last Name:</label>
-          <input type="text" name="form-subject">
-
-          <label>Address 1:</label>
-          <input type="text" name="form-subject">
-
-          <label>Address 2(optional):</label>
-          <input type="text" name="form-subject">
-
-          <label>City:</label>
-          <input type="text" name="form-subject">
-
-          <label>Province:</label>
-          <input type="text" name="form-subject">
-
-          <label>Zip Code:</label>
-          <input type="text" name="form-subject">
-
-          <label>Phone:</label>
-          <input type="text" name="form-subject">
-
-
-
-      </form>
-
-    </article>
-
-      </div>
-        <div class="col-1of2"> <!-- end of grid -->
-
-
-
-    <article id="billing">
-
-      <h2>Billing Information:</h2>
-
-
-        <form method="post" action="#" id="billingadress">
-
-          <label>Shipping Address:</label>
-          <input type="checkbox" name="checkbox" value="value">
-
-          <label>Another Address:</label>
-          <input type="checkbox" name="checkbox" value="value">
-
-     
-          <label>Address Name:</label>
-          <input type="text" name="form-name" placeholder="E.g Home">
-
-          <label>Country:</label>
-          <input type="text" name="form-subject">
-
-          <label>First Name:</label>
-          <input type="text" name="form-subject">
-
-          <label>Last Name:</label>
-          <input type="text" name="form-subject">
-
-          <label>Address 1:</label>
-          <input type="text" name="form-subject">
-
-          <label>Address 2 (optional):</label>
-          <input type="text" name="form-subject">
-
-          <label>City:</label>
-          <input type="text" name="form-subject">
-
-          <label>Province:</label>
-          <input type="text" name="form-subject">
-
-          <label>Zip Code:</label>
-          <input type="text" name="form-subject">
-
-          <label>Phone:</label>
-          <input type="text" name="form-subject">
-
-
-      <div id="checkout_btn">
-      <a href="shipping.html"><input type="button" value="CHECKOUT"></a>
-      </div>
-
-      </form>
-
-    </article>
-
-    </div>
+      </tbody>
+    </table>
 
   </div>
+
 
   </body>
 </html>

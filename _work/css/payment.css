@@ -1,0 +1,22 @@
+p {
+	text-align: left;
+}
+
+h2 {
+	text-align: left;
+}
+
+.ship label {
+	text-align: right;
+	margin-right: 20rem;
+}
+
+.ship figure {
+	text-align: right;
+	margin-right: 20rem;
+}
+
+#shipping h2 {
+	padding-top: -10rem;
+}
+

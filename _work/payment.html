@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="css/detailed_products.css">
     <link rel="stylesheet" href="css/grid_detailed_products.css">
     <link rel="stylesheet" href="css/checkout.css">
+    <link rel="stylesheet" href="css/payment.css">
   </head>
 
   <body>
@@ -86,7 +87,7 @@
 
   <article id="status">
 
-  <figure>Shopping Bag | <strong>Billing & Shipping</strong> | Shipping Method | Payment</figure>
+  <figure>Shopping Bag | Billing & Shipping | Shipping Method | <strong>Payment</strong></figure>
 
   </article>
 
@@ -97,42 +98,23 @@
          <article id="shipping">
 
 
-      <h2>Shipping Information:</h2>
+      <h2>Payment Information:</h2>
 
 
-        <form method="post" action="#" id="reviews">
+        <form method="post" action="#" id="creditCard">
 
      
-          <label>Address Name:</label>
-          <input type="text" name="form-name" placeholder="E.g Home">
+          <label>Credit Card Number:</label>
+          <input type="text" name="form-name">
 
-          <label>Country:</label>
+          <label>CVC:</label>
           <input type="text" name="form-subject">
 
-          <label>First Name:</label>
-          <input type="text" name="form-subject">
+          <label>Exp Date:</label>
+          <input type="text" name="form-subject" placeholder="MM/YY">
 
-          <label>Last Name:</label>
-          <input type="text" name="form-subject">
-
-          <label>Address 1:</label>
-          <input type="text" name="form-subject">
-
-          <label>Address 2(optional):</label>
-          <input type="text" name="form-subject">
-
-          <label>City:</label>
-          <input type="text" name="form-subject">
-
-          <label>Province:</label>
-          <input type="text" name="form-subject">
-
-          <label>Zip Code:</label>
-          <input type="text" name="form-subject">
-
-          <label>Phone:</label>
-          <input type="text" name="form-subject">
-
+          <label>Name on Card:</label>
+          <input type="text" name="form-subject" placeholder="Full Name">
 
 
       </form>
@@ -143,54 +125,32 @@
         <div class="col-1of2"> <!-- end of grid -->
 
 
+      <h2>Address Information:</h2>
 
-    <article id="billing">
+      <div class="ship">
+      <p>SHIPPING ADDRESS:</p> 
+      <label>13688 100th Avenue Suite 2701
+      Surrey, B.C, Canada
+      V3T0G5</label>
+        
 
-      <h2>Billing Information:</h2>
+      <p>SHIPPING INFORMATION:</p> 
+      <label>Standard
+      Standard Ground Shipping and Handling</label>
 
 
-        <form method="post" action="#" id="billingadress">
+      <p>COST:</p>
+      <label>Sub-Total:  CAD $15.80</label>
+      <label>Shipping & Handling:  CAD $8.95</label>
+      <label>Tax:  CAD $2.97</label>
+ 
+      <figure>TOTAL:  CAD $27.72</figure>
 
-          <label>Shipping Address:</label>
-          <input type="checkbox" name="checkbox" value="value">
-
-          <label>Another Address:</label>
-          <input type="checkbox" name="checkbox" value="value">
-
-     
-          <label>Address Name:</label>
-          <input type="text" name="form-name" placeholder="E.g Home">
-
-          <label>Country:</label>
-          <input type="text" name="form-subject">
-
-          <label>First Name:</label>
-          <input type="text" name="form-subject">
-
-          <label>Last Name:</label>
-          <input type="text" name="form-subject">
-
-          <label>Address 1:</label>
-          <input type="text" name="form-subject">
-
-          <label>Address 2 (optional):</label>
-          <input type="text" name="form-subject">
-
-          <label>City:</label>
-          <input type="text" name="form-subject">
-
-          <label>Province:</label>
-          <input type="text" name="form-subject">
-
-          <label>Zip Code:</label>
-          <input type="text" name="form-subject">
-
-          <label>Phone:</label>
-          <input type="text" name="form-subject">
+      </div>
 
 
       <div id="checkout_btn">
-      <a href="shipping.html"><input type="button" value="CHECKOUT"></a>
+      <a href="thankyou.html"><input type="button" value="PLACE ORDER"></a>
       </div>
 
       </form>
