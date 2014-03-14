@@ -17,6 +17,7 @@
 	border-right: thick solid ##bfbfbf
 }*/
 
+
 /* locations page
 -----------------------------------------*/
 #locations h2 {
@@ -71,7 +72,7 @@ td {
 #shoppingbag h2 {
 	font-weight: 500;
 	padding-top:25px;
-	padding-left: 23%;
+	padding-left: 20%;
 	margin-bottom: 0;
 	letter-spacing: 1.5px;
 	text-align: left;
@@ -92,10 +93,27 @@ td {
 }
 
 #shoppingbag table{
-	border: 1px solid #ededed;
+	border-collapse: collapse;
+	width: 60%;
+	
 	border-width: 5px;
-	margin-left: 23%;
+	margin-left: 20%;
 	padding-left: 10px;
+}
+
+
+#shoppingbag table, th, td {
+	border: 1px solid #c1c1c1;
+}
+
+
+
+.column_1 {
+	width: 57%;
+}
+
+.column_2 {
+	width: 23%;
 }
 
 
