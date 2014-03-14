@@ -39,6 +39,17 @@ figure {
 	width: 100%;
 }
 
+#checkout_btn input {
+	background-color: black;
+	color: white;
+	border: none;
+	padding: 5px;
+	padding-left: 30px;
+	padding-right: 30px;
+	margin-top: 30px;
+	margin-bottom: 150px;
+}
+
 @media (max-width: 534px) {
 	#shipping {
 		width:100%;

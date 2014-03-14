@@ -44,6 +44,24 @@ p {
 	margin-bottom: 50px;
 }
 
+#checkout_btn input {
+	background-color: black;
+	color: white;
+	border: none;
+	padding: 5px;
+	padding-left: 30px;
+	padding-right: 30px;
+}
+
+#review_button input {
+	background-color: black;
+	color: white;
+	border: none;
+	padding: 5px;
+	padding-left: 30px;
+	padding-right: 30px;
+	margin-bottom: 5rem;
+}
 
 
 figure {
