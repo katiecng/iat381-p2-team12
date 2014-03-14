@@ -62,7 +62,6 @@ figure {
 @media (max-width: 1087px) {
 	#billing {
 		width:100%;
-		padding-left: auto;
 		margin: auto;
 	}
 }
@@ -71,7 +70,7 @@ figure {
 	#status {
 		width: 100%;
 		padding-left: 0rem;
-		padding: auto;
+		
 		margin: auto;
 	}
 }

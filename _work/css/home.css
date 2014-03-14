@@ -3,6 +3,8 @@
 	margin-left: auto;
 	margin-right: auto;
 	padding-bottom: 45px;
+    width: 80%;
+    height: 80%;
 }
 
 .updates img {
@@ -10,6 +12,8 @@
     margin-left: auto;
     margin-right: auto;
     padding-bottom: 45px;
+    width: 80%;
+    height: 80%;
 }
 
 .grid hr {
