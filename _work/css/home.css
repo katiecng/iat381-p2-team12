@@ -86,7 +86,7 @@ article a img:hover {
 }
 
 
-@media (max-width: 600px) {
+@media (max-width: 800px) {
     #mainMenu {
         text-align: center;
         position: relative;

@@ -28,10 +28,11 @@ input {
 figure {
 	text-transform: uppercase;
 	padding-left: 7.5rem;
+	word-spacing: 5px;
 }
 
 #shipping {
-	margin-left: 20rem;
+	margin-left: 10rem;
 }
 
 #billing {
