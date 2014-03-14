@@ -140,7 +140,7 @@ td {
 	padding-left: 70%;
 }
 
-#checkout_btn input {
+#checkout_btn button {
 	background-color: black;
 	color: white;
 	border: none;
