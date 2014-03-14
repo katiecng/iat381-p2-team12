@@ -106,10 +106,25 @@ td {
 	padding: 10px;
 }
 
+#shoppingbag tbody a {
+	text-decoration: underline;
+}
+
+#shoppingbag div {
+	display: inline-block;
+	vertical-align: top;
+	line-height: 20px;
+}
+
+#shoppingbag span{
+	display: inline-block;
+	vertical-align: top;
+	padding-left: 20px;
+}
+
 #shoppingbag table, th, td {
 	border: 1px solid #c1c1c1;
 }
-
 
 .column_1 {
 	width: 57%;
@@ -117,6 +132,21 @@ td {
 
 .column_2 {
 	width: 23%;
+}
+
+#checkout_btn {
+	padding-left: 70%;
+}
+
+#checkout_btn input {
+	background-color: black;
+	color: white;
+	border: none;
+	padding: 5px;
+	padding-left: 30px;
+	padding-right: 30px;
+	margin-top: 30px;
+	margin-bottom: 150px;
 }
 
 
