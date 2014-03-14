@@ -8,15 +8,35 @@ h2 {
 
 .ship label {
 	text-align: right;
-	margin-right: 20rem;
+	margin-right: 45%;
 }
 
 .ship figure {
 	text-align: right;
-	margin-right: 20rem;
+	margin-right: 45%;
+
 }
 
 #shipping h2 {
 	padding-top: 0px;
+}
+
+#order_btn {
+	margin-right: 10%;
+	margin-bottom: 7rem;
+}
+
+#order_btn button{
+	background-color: black;
+	color: white;
+	border: none;
+	padding: 5px;
+	padding-left: 30px;
+	padding-right: 30px;
+	
+}
+
+#thankyou {
+	text-align: center;
 }
 
