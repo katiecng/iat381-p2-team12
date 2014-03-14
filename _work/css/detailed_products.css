@@ -44,26 +44,65 @@ p {
 	margin-bottom: 50px;
 }
 
-#checkout_btn input {
+#addtobag_btn button {
+
+	background-color: #bac689;
+	color: white;
+	font-weight: 500;
+	border: none;
+	font-size: 14px;
+	padding: 3px;
+	padding-left: 30px;
+	padding-right: 30px;
+}
+
+#addtobag_btn button:hover, #checkout_btn button:hover {
+	opacity: 0.7;
+}
+
+#added button{
+	border: 1px solid #c6c6c6;
+	background-color: white;
+	color: #bac689;
+	font-size: 12px;
+	margin-top: 5px;
+	padding: 3px;
+	padding-left: 30px;
+	padding-right: 30px;
+	cursor: default;
+}
+
+#checkout_btn button {
 	background-color: black;
 	color: white;
 	border: none;
-	padding: 5px;
+	padding: 3px;
 	padding-left: 30px;
 	padding-right: 30px;
 	margin-bottom: 5px;
+	cursor: pointer;
 }
 
-#review_button input {
+#review_btn button {
 	background-color: black;
 	color: white;
 	border: none;
-	padding: 5px;
+	padding: 3px;
 	padding-left: 30px;
 	padding-right: 30px;
 	margin-bottom: 5rem;
 }
 
+
+#writeareview {
+	padding-top: 10px;
+	padding-bottom: 5rem;
+}
+
+#writeareview a {
+	text-decoration: underline;
+	padding-left: 10px;
+}
 
 figure {
 	margin-left: 0;
